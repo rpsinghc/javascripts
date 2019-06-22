@@ -1,0 +1,12 @@
+
+<h1>{{title}}</h1>
+<nav>
+    <a *ngFor="let menu of menuItems" 
+    routerLink="{{menu.link}}">
+      {{menu.name}}
+    </a>
+    <!-- <a routerLink="/header">Header</a>
+    <a routerLink="/service">Service</a> -->
+</nav>
+<router-outlet></router-outlet>
+

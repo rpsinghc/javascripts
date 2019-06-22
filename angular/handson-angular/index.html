@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Hello, Angular</title>
+  </head>
+  <body>
+    <app-main>Loading...</app-main>
+    
+    <script type="systemjs-importmap"  src="/systemjs.config.json"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="node_modules/commonjs/lib/system.js"></script>
+    <script>
+    
+      System.import("/dist/main.js").catch(function (err) {
+          console.error(err);
+      });
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "LEAN",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --harmony ./get_example.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "pug": "^2.0.3"
+  }
+}
